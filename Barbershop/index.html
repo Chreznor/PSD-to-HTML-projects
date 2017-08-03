@@ -1,13 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Barbershop</title>
 </head>
 <body>
-  <header class="main-header">
+  <header class="main-header group">
     <div class="container">
     <nav class="main-menu">
       <ul>
@@ -38,86 +40,90 @@
     </div>
   </header>
 
-  <section class="container">
-    <div class="logo">
-      <img src="#" alt="Barbershop Logo">
+  <section class="main-body">
+    <div class="container">
+      <div class="logo">
+        <img src="IMG/BORODINSKI-logo.png" alt="Barbershop Logo">
+      </div>
+
+      <div class="features">
+        <div class="features-item">
+          <h2 class="features-name">Quick</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur expedita dicta, commodi aut nostrum vero.</p>
+        </div>
+
+        <div class="features-item">
+          <h2 class="features-name">Cool</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur expedita dicta, commodi aut nostrum .</p>
+        </div>
+
+        <div class="features-item">
+          <h2 class="features-name">Expensive</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur expedita dicta, commodi aut nostrum vero.</p>
+        </div>
+      </div>
     </div>
 
-    <div class="features">
-      <div class="features-item">
-        <b class="features-name">Quick</b>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur expedita dicta, commodi aut nostrum vero necessitatibus reiciendis magni earum adipisci.</p>
+    <div class="container-color--white container">
+      <div class="left-block">
+        <h2>News</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta illum adipisicing.</p>
+        <time>September 23</time>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta illum adipisicing.</p>
+        <time>September 23</time>
+        <a href="#" class="btn">All news</a>
       </div>
 
-      <div class="features-item">
-        <<b class="features-name">Cool</b>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur expedita dicta, commodi aut nostrum vero necessitatibus reiciendis magni earum adipisci.</p>
+      <div class="right-block">
+        <h2>Gallery</h2>
+        <img src="IMG/gallery-pic.jpg" width="300px" height="auto" alt="Interior Images">
+        <button class="btn">Previous</button>
+        <button class="btn">Next</button>
+      </div>
+    </div>
+
+    <div class="container-color--white container cont2">
+      <div class="left-block">
+        <h2>Contact information</h2>
+        <p>Barbershop "Borodinski"</br> Address: St.Petersburg, Fova str., 22</br>Phone number: + 7 (332) 555-54-55</p>
+        <p>Open:</br>Mon - FR: from 10am till 10pm</br>Sat - Sun: from 10am till 7pm</p>
+
+        <a class="btn" href="#">Location</a>
+        <a class="btn" href="#">Feedback</a>
       </div>
 
-      <div class="features-item">
-        <b class="features-name">Expensive</b>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur expedita dicta, commodi aut nostrum vero necessitatibus reiciendis magni earum adipisci.</p>
+      <div class="right-block">
+        <h2>Reserve a date</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore, quasi.</p>
+        <form action="" class="reservation">
+          <input type="text" name="date" placeholder="DATE">
+          <input type="text" name="time" placeholder="TIME">
+          <input type="text" name="name" placeholder="NAME">
+          <input type="tel" name="phone" placeholder="PHONE">
+
+          <button class="btn" type="submit">Send</button>
+        </form>
       </div>
     </div>
   </section>
 
-  <section class="container">
-    <div class="left-block">
-      <h2>News</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta illum sit deleniti, magni consectetur, illo.</p>
-      <time>September 23</time>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta illum sit deleniti, magni consectetur, illo.</p>
-      <time>September 23</time>
-      <a href="#" class="btn">All news</a>
-    </div>
-
-    <div class="right-block">
-      <h2>Gallery</h2>
-      <img src="#" alt="Interior Images">
-      <button class="btn">Previous</button>
-      <button class="btn">Next</button>
-    </div>
-  </section>
-
-  <section class="container">
-    <div class="left-block">
-      <h2>Contact information</h2>
-      <p>Barbershop "Borodinski"</br> Address: St.Petersburg, Fova str., 22</br>Phone number: + 7 (332) 555-54-55</p>
-      <p>Open:</br>Mon - FR: from 10am till 10pm</br>Sat - Sun: from 10am till 7pm</p>
-
-      <a class="btn" href="#">How to find us</a>
-      <a class="btn" href="#">Feedback</a>
-    </div>
-
-    <div class="right-block">
-      <h2>Reserve a date</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore, quasi.</p>
-      <form action="" class="reservation">
-        <input type="text" name="date" placeholder="DATE">
-        <input type="text" name="time" placeholder="TIME">
-        <input type="text" name="name" placeholder="NAME">
-        <input type="tel" name="phone" placeholder="PHONE NUMBER">
-
-        <button class="btn" type="submit">Send</button>
-      </form>
-    </div>
-
-    <footer class="container">
+  <footer class="footer">
+    <div class="container">
       <div class="contact-info">
         <p>Barbershop "Borodinski"</br> Address: St.Petersburg, Fova str., 22</br><a href="#">How to find us</a></br>Phone number: + 7 (332) 555-54-55</p>
       </div>
 
       <div class="social-media">
-        <p>Let's be friends</p>
-        <div class="icon vk">VK</div>
-        <div class="icon facebook">FB</div>
-        <div class="icon instagram">IG</div>
+        <p>Let's be friends!</p>
+        <div class="icon vk"><img src="IMG/v-icon.png" alt="Vkontakte" width="40px" height="40px"></div>
+        <div class="icon facebook"><img src="IMG/f-icon.png" alt="Facebook" width="40px" height="40px"></div>
+        <div class="icon instagram"><img src="IMG/inst-icon.png" alt="Instagram" width="40px" height="40px"></div>
       </div>
 
       <div class="author-info">
-        <p>Let's be friends</p>
+        <p>More information</p>
       </div>
-    </footer>
-  </section>
+    </div>
+  </footer>
 </body>
 </html>

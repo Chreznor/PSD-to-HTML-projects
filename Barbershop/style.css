@@ -1,0 +1,290 @@
+html {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  padding: 0;
+  margin: 0;
+  font-size: 14px;
+  background-color: black;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.group:before,
+.group:after {
+  content: "";
+  display: table;
+}
+.group:after {
+  clear: both;
+}
+.group {
+  zoom: 1; /* For IE 6/7 (trigger hasLayout) */
+}
+
+.container {
+  max-width: 940px;
+  margin: 0 auto;
+  color: #fff;
+}
+
+.main-header {
+  background: black;
+}
+
+.main-menu {
+  display: inline-block;
+  margin-left: 12px;
+  float: left;
+}
+
+ul {
+  margin: 0;
+  padding: 15px 0 15px 0;
+}
+
+.menu-items {
+  display: inline-block;
+  text-decoration: none;
+}
+
+.menu-items a:hover {
+  border-bottom: 2px solid #fff;
+}
+
+.menu-items a {
+  color: #fff;
+  font-size: 16px;
+  text-decoration: none;
+  text-transform: uppercase;
+  margin-right: 34px;
+  padding-bottom: 13px;
+}
+
+.user-block::before {
+  content: url('IMG/icon-login.png');
+  padding-right: 14px;
+}
+
+.user-block {
+  padding: 15px 0 15px 0;
+  float: right;
+  display: inline-block;
+  margin-right: 22px;
+}
+
+.login {
+  color: #fff;
+  font-size: 16px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+
+/*Main body*/
+
+.main-body {
+  background-image: url('IMG/main-bg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.logo {
+  text-align: center;
+  padding: 56px 0 20px 0;
+}
+
+.features {
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 80px;
+}
+
+.features-item:first-child {
+  margin-left: 30px;
+  margin-right: 44px;
+}
+
+.features-item:last-child {
+  margin-right: 30px;
+  margin-left: 44px;
+}
+
+.features-item {
+  text-align: center;
+  background-image: url('IMG/shape-1.png');
+  background-size: 30px 30px;
+  background-repeat: no-repeat;
+  background-position: 50% 50px, center;
+}
+
+.features-name {
+  margin-top: 0;
+  margin-bottom: 70px;
+  font-size: 30px;
+}
+
+.features-item p {
+  font-size: 14px;
+}
+
+.container-color--white {
+  color: #000;
+  background-image: url('IMG/cont-bg-layer.jpg');
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 34px;
+}
+
+.left-block {
+  width: 50%;
+  padding: 56px 30px 50px 80px;
+}
+
+.right-block {
+  width: 50%;
+  padding: 56px 30px 50px 80px;
+}
+
+.left-block h2, .right-block h2 {
+  margin-top: 0;
+  font-size: 30px;
+  text-transform: uppercase;
+}
+
+.left-block p, .right-block p{
+  line-height:24px;
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.left-block time {
+  font-weight: 400;
+  font-size: 14px;
+}
+
+
+.left-block .btn {
+  display: block;
+}
+
+.right-block button {
+  padding: 18px 32px;
+}
+
+.btn {
+  margin: 40px 10px 30px 0;
+  width: 140px;
+  padding: 16px 32px;
+  background: #000;
+  color: #fff;
+  font-size: 14px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  border: 0;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: grey;
+  transition: .4s;
+}
+
+.right-block img {
+  border: 3px solid #fff;
+  /*margin-bottom: 10px;*/
+}
+
+.cont2 .left-block a {
+  display: inline-block;
+}
+
+.cont2 {
+  margin-bottom: 64px;
+}
+
+.reservation {
+  margin-top: 20px;
+}
+
+.reservation input {
+  width: 140px;
+  height: 42px;
+  padding-left: 15px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  border: 2px solid black;
+  background: none;
+  color: #000;
+  font-weight: 600;
+}
+
+.reservation input:focus {
+  outline: none;
+}
+
+.reservation .btn {
+  margin-top: 15px;
+  width: 304px;
+}
+
+
+/*Footer*/
+.footer {
+  width: 100%;
+  background-image: url('IMG/footer-bg.jpg');
+}
+
+.footer .container {
+  display: flex;
+  flex-direction: row;
+  padding: 40px 0 40px 0;
+  text-transform: uppercase;
+}
+
+.contact-info {
+  flex: 2;
+}
+
+.contact-info a {
+  color: white;
+}
+
+.contact-info p {
+  line-height: 20px;
+}
+
+.social-media {
+  flex: 1;
+  text-align: center;
+}
+
+.social-media p {
+  margin-bottom: 23px;
+}
+
+.social-media div {
+  display: inline-block;
+}
+
+.author-info {
+  flex: 2;
+  text-align: right;
+}
+
+
+
+
+
+
+
+
+
+
+/*end*/
